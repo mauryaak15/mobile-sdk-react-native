@@ -1,5 +1,5 @@
 
-package io.refiner;
+package com.refiner;
 
 import java.util.Arrays;
 import java.util.Collections;

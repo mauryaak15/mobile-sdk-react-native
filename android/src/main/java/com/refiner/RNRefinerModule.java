@@ -1,5 +1,5 @@
 
-package io.refiner;
+package com.refiner;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -9,7 +9,10 @@ import com.facebook.react.bridge.ReadableMap;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import io.refiner.utils.MapUtil;
+import io.refiner.Refiner;
+import io.refiner.RefinerConfigs;
+
+import com.refiner.utils.MapUtil;
 
 public class RNRefinerModule extends ReactContextBaseJavaModule {
 
